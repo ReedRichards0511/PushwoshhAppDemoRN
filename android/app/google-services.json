@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778143795656",
+    "project_id": "rnpushwooshdemo",
+    "storage_bucket": "rnpushwooshdemo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778143795656:android:6800132efe2c0d1bf9d8fd",
+        "android_client_info": {
+          "package_name": "com.rnpushwooshapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoxUVVy8803vouUbm2M-hD5Wb2yN2giUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

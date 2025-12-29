@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
       android:name=".MainApplication"
@@ -9,8 +10,18 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme"
+      android:enableOnBackInvokedCallback="false"
       android:usesCleartextTraffic="${usesCleartextTraffic}"
       android:supportsRtl="true">
+
+      <meta-data
+        android:name="com.pushwoosh.apitoken"
+        android:value="nN7bJ2q3yS37RilpnjyVdr3haYWa9yYnXlwUL48zADcmU5EeyAAMFgGqOr6BJ0w8f3wVp6tAbwXksWiXX25u" />
+
+      <meta-data
+        android:name="com.pushwoosh.rich_media_type"
+        android:value="Modal" />
+
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
